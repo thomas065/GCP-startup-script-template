@@ -10,4 +10,4 @@ Feel free to edit and change this file at your whim :)
 
 ---
 *Preview*
-![[preview.png]]
+![image](./preview.png)
