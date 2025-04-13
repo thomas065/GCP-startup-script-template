@@ -66,7 +66,7 @@ cat <<EOF > /var/www/html/index.html
       </iframe>
       <hr class="w3-border-grey" style="margin:auto;width:40%;margin-top:15px;">
       <h3 class="w3-large w3-center" style="margin-top:15px;">
-        <a href="https://github.com/thomas065/GCP-startup-script-template"
+        <a href="https://github.com/thomas065/GCP-startup-script-template/blob/main/new-class-template.sh"
            class="w3-button w3-transparent w3-border w3-border-white w3-round-large w3-text-white"
            style="margin-bottom:0px;"
            target="_blank">
