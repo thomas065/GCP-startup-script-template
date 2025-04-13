@@ -56,7 +56,7 @@ cat <<EOF > /var/www/html/index.html
   <div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
     <div class="w3-display-topleft w3-padding-large w3-xlarge"></div>
     <div class="w3-display-middle w3-center">
-      <iframe src="https://giphy.com/embed/1sv8rIfAtyMsqsqDt8"
+      <iframe src="https://giphy.com/embed/Kz7PNyq1r5TSNH37JM"
               width="500"
               height="270"
               style="border-radius:10px;"
