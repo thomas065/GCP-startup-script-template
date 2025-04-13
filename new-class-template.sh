@@ -32,7 +32,7 @@ cat <<EOF > /var/www/html/index.html
     body,h1,h3 {font-family: "Raleway", sans-serif}
     body, html {height: 100%}
     .bgimg {
-      background-image: url('https://storage.googleapis.com/a-dream/verve.jpg');
+      background-image: url('https://m.media-amazon.com/images/M/MV5BYmI1NTVlYjYtNmZiMy00NmNhLTllYjEtOWIwZjVhYzA5ZDE4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg');
       min-height: 100%;
       background-position: center;
       background-size: cover;
