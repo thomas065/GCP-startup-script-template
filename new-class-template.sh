@@ -23,7 +23,7 @@ cat <<EOF > /var/www/html/index.html
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Class 6.5</title>
+  <title>Thomas Bell - Class 6.5</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -66,24 +66,36 @@ cat <<EOF > /var/www/html/index.html
       </iframe>
       <hr class="w3-border-grey" style="margin:auto;width:40%;margin-top:15px;">
       <h3 class="w3-large w3-center" style="margin-top:15px;">
-        <a href="https://github.com/Gwenbleidd32/startup-script-template"
+        <a href="https://github.com/thomas065/GCP-startup-script-template/edit/main/new-class-template.sh"
            class="w3-button w3-transparent w3-border w3-border-white w3-round-large w3-text-white"
            style="margin-bottom:0px;"
            target="_blank">
           Source Code
         </a>
+        <a href="https://thomasjbell.netlify.app/"
+           class="w3-button w3-transparent w3-border w3-border-white w3-round-large w3-text-white"
+           style="margin-bottom:0px;"
+           target="_blank">
+          Portfolio
+        </a>
       </h3>
     </div>
     <div class="w3-display-bottomleft w3-padding-small transparent-background outlined-text">
-      <h1>My Compute Instance Information</h1>
+      <h1><u>Cyber Instance Coordinates:</u></h1>
       <h3></h3>
-      <p><b>Instance Name:</b> $(hostname -f)</p>
-      <p><b>Instance Private IP Address: </b> $local_ipv4</p>
-      <p><b>Zone: </b> $zone</p>
-      <p><b>Project ID:</b> $project_id</p>
-      <p><b>Network Tags:</b> $network_tags</p>
+      <p><b>Instance Name:&nbsp;</b>$(hostname -f)</p>
+      <p><b>Date:&nbsp;</b><span id="current-date"></span></p>
+      <p><b>Instance Private IP Address:&nbsp;</b>$local_ipv4</p>
+      <p><b>Zone:&nbsp;</b>$zone</p>
+      <p><b>Project ID:&nbsp;</b>$project_id</p>
+      <p><b>Network Tags:&nbsp;</b>$network_tags</p>
     </div>
   </div>
 </body>
 </html>
+<script>
+  const today = new Date();
+  const formattedDate = today.toLocaleDateString(); // Adjust options if needed for format
+  document.getElementById('current-date').textContent = formattedDate;
+</script>
 EOF
