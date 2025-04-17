@@ -23,7 +23,7 @@ cat <<EOF > /var/www/html/index.html
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Thomas Bell - Class 6.5</title>
+  <title>Class 6.5</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -32,7 +32,7 @@ cat <<EOF > /var/www/html/index.html
     body,h1,h3 {font-family: "Raleway", sans-serif}
     body, html {height: 100%}
     .bgimg {
-      background-image: url('https://m.media-amazon.com/images/M/MV5BYmI1NTVlYjYtNmZiMy00NmNhLTllYjEtOWIwZjVhYzA5ZDE4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg');
+      background-image: url('https://storage.googleapis.com/a-dream/verve.jpg');
       min-height: 100%;
       background-position: center;
       background-size: cover;
@@ -56,7 +56,7 @@ cat <<EOF > /var/www/html/index.html
   <div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
     <div class="w3-display-topleft w3-padding-large w3-xlarge"></div>
     <div class="w3-display-middle w3-center">
-      <iframe src="https://giphy.com/embed/Kz7PNyq1r5TSNH37JM"
+      <iframe src="https://giphy.com/embed/1sv8rIfAtyMsqsqDt8"
               width="500"
               height="270"
               style="border-radius:10px;"
@@ -66,25 +66,18 @@ cat <<EOF > /var/www/html/index.html
       </iframe>
       <hr class="w3-border-grey" style="margin:auto;width:40%;margin-top:15px;">
       <h3 class="w3-large w3-center" style="margin-top:15px;">
-        <a href="https://github.com/thomas065/GCP-startup-script-template/blob/main/new-class-template.sh"
+        <a href="https://github.com/Gwenbleidd32/startup-script-template"
            class="w3-button w3-transparent w3-border w3-border-white w3-round-large w3-text-white"
            style="margin-bottom:0px;"
            target="_blank">
           Source Code
         </a>
-        <a href="https://thomasjbell.netlify.app/"
-           class="w3-button w3-transparent w3-border w3-border-white w3-round-large w3-text-white"
-           style="margin-bottom:0px;"
-           target="_blank">
-          Portfolio
-        </a>
       </h3>
     </div>
     <div class="w3-display-bottomleft w3-padding-small transparent-background outlined-text">
-      <h1><u>Cyber Instance Coordinates:</u></h1>
-      <h3></h3>
-      <p><b>Instance Name:&nbsp;</b>$(hostname -f)</p>
+      <h1>My Compute Instance Information</h1>
       <p><b>Date:&nbsp;</b><span id="current-date"></span></p>
+      <p><b>Instance Name:&nbsp;</b>$(hostname -f)</p>
       <p><b>Instance Private IP Address:&nbsp;</b>$local_ipv4</p>
       <p><b>Zone:&nbsp;</b>$zone</p>
       <p><b>Project ID:&nbsp;</b>$project_id</p>
